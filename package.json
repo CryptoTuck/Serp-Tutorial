@@ -6,13 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "serpAgent": "tsx -r dotenv/config scripts/serpAgent.ts"
   },
   "dependencies": {
     "@types/node": "20.4.5",
     "@types/react": "18.2.17",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.14",
+    "langchain": "^0.0.119",
     "next": "13.4.12",
     "postcss": "8.4.27",
     "react": "18.2.0",
